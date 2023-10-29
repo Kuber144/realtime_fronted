@@ -7,6 +7,6 @@ export const initSocket = async () => {
     transports: ["websocket"],
   };
 
-  const socket = io("https://realtime-backend.vercel.app/", options); // Replace 'https://api.xyz.com' with your actual server URL
+  const socket = io("https://realtime-backend-xq6z.onrender.com/", options); // Replace 'https://api.xyz.com' with your actual server URL
   return socket;
 };
